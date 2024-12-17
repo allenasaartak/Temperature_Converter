@@ -1,0 +1,49 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: rgb(212, 212, 212);
+}
+
+#myH1{
+    color: rgb(65, 65, 223);
+}
+form{
+    background-color: white;
+    text-align: center;
+    max-width: 350px;
+    margin:auto;
+    padding: 25px;
+    border-radius:10px;
+    box-shadow:5px 5px 15px rgba(31, 8, 8, 0.315);
+}
+#myT{
+    padding: 10px;
+    text-align: center;
+    font-size:2em;
+    max-width: 180px;
+    border: 2px solid rgba(0, 0, 0, 0.836);
+    border-radius: 5px;
+    margin-bottom: 1em;
+}
+#lctf,#lftc{
+    font-size: 1.25em;
+    font-weight:bold;
+    cursor:pointer;
+}
+#mySub{
+    margin-top:2em;
+    font-size: 1.5em;
+    color: white;
+    background-color:rgba(255, 0, 0, 0.753);
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#mySub:hover{
+    background-color:rgb(136, 8, 8)
+}
+#myP{
+    margin-top: 1em;
+    margin-bottom:0.7em;
+    font-size:1.5em;
+    font-weight:bold;
+}

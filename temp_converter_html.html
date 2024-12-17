@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset = "UTf-8">
+        
+        <meta name = "viewport" content = "width=device-width, initial-scale = 1.0">
+        
+        <title>My Website</title>
+        <link rel="stylesheet" href="temp_converter_css.css">
+    </head>
+
+    <body>
+        <form id = "myF">
+        <h1 id = "myH1">Temperature <br>Conversion:</h1>
+        <br>
+        <input type="text" id = "myT" value = "0">
+        <div is = "myD">
+            <input type="radio" id = "ctf" name = "same">
+            <label for="ctf" id = "lctf" >Celsius → Fahrenheit</label><br>
+            <input type="radio" id = "ftc"name = "same">
+            <label for="ftc" id = "lftc">Fahrenheit → Celsius</label><br>
+            <button type = "button" id = "mySub" onclick = "convert()">Submit</button>
+        </div>
+        <p id ="myP" >Ans will be displayed here</p>
+    </form>
+
+
+        <script src = "temp_converter_js.js"></script> 
+    </body>
+
+</html> 
